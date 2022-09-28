@@ -1,5 +1,7 @@
-.App {
-  text-align: center;
+/* important for spacing */
+
+#basic-navbar-nav{
+  flex-grow: 0;
 }
 
 .App-logo {

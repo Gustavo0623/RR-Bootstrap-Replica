@@ -1,10 +1,14 @@
 import './App.css';
-import React, { useState } from 'react'
+import Navigation from './components/Navigation';
+import Background from './components/Form';
+import Listings from './components/Listings';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Navigation />
+      <Background />
+      <Listings />
     </div>
   );
 }
